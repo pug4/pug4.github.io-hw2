@@ -32,11 +32,11 @@
 
 		<br>
 
-		Link to webpage: (TODO) <a href="https://cs184.eecs.berkeley.edu/sp25">cs184.eecs.berkeley.edu/sp25</a>
+		Link to webpage: (TODO) <a href="https://pug4.github.io/pug4.github.io-hw2/">pug4.github.io</a>
 
 		<br>
 		
-		Link to GitHub repository: (TODO) <a href="https://cs184.eecs.berkeley.edu/sp25">cs184.eecs.berkeley.edu/sp25</a>
+		Link to GitHub repository: (TODO) <a href="https://github.com/cal-cs184-student/sp25-hw2-jayu">Github</a>
 
 		<figure>
 			<img src="images/teapot.png" alt="Teapot" style="width:50%"/>
@@ -48,7 +48,7 @@
 		-->
 
 		<h2>Overview</h2>
-		This project was a very interesting project. Something really cool about this class is the ablity to work a bit closer to an autonmus work floor. Figguring out and debugging issues with make and cmake has really made me a better developer when working on personal projects.
+		This project was a very interesting project. Something really cool about this class is the ablity to work a bit closer to an autonmus work floor. Figguring out and debugging issues with make and cmake has really made me a better developer when working on personal projects. Generally speaking, in this project we were able to take a deeper look at some of the algorithims that makes graphics what we envision them to be in things like video games, animations, and general graphic design. 
 
 		<h2>Section I: Bezier Curves and Surfaces</h2>
 
@@ -153,22 +153,43 @@
 
 
 		<h3>Part 6: Loop subdivision for mesh upsampling</h3>
-		
+		This was by far the hardest problem. Basically I really had to use my debugging tools like lldb's prints and frames to dive deeper into what my pointers were actually pointing too. 
 
 
-		<h2>(Optional) Section III: Potential Extra Credit - Art Competition: Model something Creative</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h2>Additional Notes (please remove)</h2>
-		<ul>
-			<li>You can also add code if you'd like as so: <code>code code code</code></li>
-			<li>If you'd like to add math equations, 
-				<ul>
-					<li>You can write inline equations like so: \( a^2 + b^2 = c^2 \)</li>
-					<li>You can write display equations like so: \[ a^2 + b^2 = c^2 \]</li>
-				</ul>
-			</li>
-		</ul>
+		<div style="display: flex; flex-direction: column; align-items: center;">
+			<table style="width: 100%; text-align: center; border-collapse: collapse;">
+			  <tr>
+				<td style="text-align: center;">
+				  <img src="images/i15.png" width="400px"/>
+				  <figcaption>without subdivisions</figcaption>
+				</td>
+				<td style="text-align: center;">
+				  <img src="images/i16.png" width="400px"/>
+				  <figcaption>level 1 loop subdivision</figcaption>
+				</td>
+			  </tr>
+			  <tr>
+				<td style="text-align: center;">
+				  <img src="images/i18.png" width="400px"/>
+				  <figcaption>level 2 loop subdivision with the splits</figcaption>
+				</td>
+				<td style="text-align: center;">
+				  <img src="images/i17.png" width="400px"/>
+				  <figcaption>level 2 loop subdivision without the splits </figcaption>
+				</td>
+			  </tr>
+			  <tr>
+				<td style="text-align: center;">
+				  <img src="images/i19.png" width="400px"/>
+				  <figcaption>level 3 loop subdivision with the splits</figcaption>
+				</td>
+				<td style="text-align: center;">
+				  <img src="images/i20.png" width="400px"/>
+				  <figcaption>level 4 loop subdivision with the splits - as we can see with more subdivisions we are able to get smoother lines that turn into curves </figcaption>
+				</td>
+			  </tr>
+			</table>
+		</div>
 		</div>
 	</body>
 </html>
